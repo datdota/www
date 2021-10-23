@@ -1,5 +1,7 @@
 # datdota frontend
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a6dfdf7f-1d9f-41cc-af13-0d7851dea02b/deploy-status)](https://app.netlify.com/sites/datdota/deploys)
+
 This is a React replacement for the current [datdota](https://www.datdota.com) frontend. Once it reaches parity with the existing frontend, the old frontend will be deprecated, and this will become the only maintained one.
 
 ## Installation
