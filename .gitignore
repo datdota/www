@@ -4,10 +4,11 @@
 .pnp.js
 
 # testing
-/coverage
+/.coverage
 
 # production
 /build
+/.next
 
 # misc
 .DS_Store
