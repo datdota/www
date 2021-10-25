@@ -2,7 +2,7 @@ import React from "react";
 import { useQuery } from "react-query";
 
 const getLeagues = async () =>
-  (await fetch(`http://api.datdota.com/api/leagues`)).json();
+  (await fetch(`https://api.datdota.com/api/leagues`)).json();
 
 export const Leagues: React.VFC = () => {
   const { isLoading, isError, data, error } = useQuery(`leagues`, getLeagues);
