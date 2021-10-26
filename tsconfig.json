@@ -1,17 +1,21 @@
 {
   "$schema": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/tsconfig.json",
-  "exclude": ["node_modules", "**/__tests__/*.*", "**/__fixtures__/**/*.*"],
-  "include": ["src/**/*"],
+  "exclude": [
+    "node_modules",
+    "**/__tests__/*.*",
+    "**/__fixtures__/**/*.*"
+  ],
+  "include": [
+    "src/**/*"
+  ],
   "compilerOptions": {
     "outDir": "dist",
     "noEmit": true,
     "isolatedModules": true,
-
     // Always include these settings
     "declarationMap": true,
     "sourceMap": true,
     "importHelpers": true,
-
     /* Basic Options */
     "target": "ESNext",
     "module": "ESNext",
@@ -20,11 +24,9 @@
       "DOM" // adds support for 'window' other dom methods
     ],
     "allowJs": true,
-
     /* JSX support */
     "jsx": "preserve",
     "declaration": true,
-
     /* Strict Type-Checking Options */
     "strict": false,
     "strictNullChecks": true,
@@ -32,14 +34,13 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     // "strictFunctionTypes": true,
-
     /* Module Resolution Options */
     "moduleResolution": "node",
     "esModuleInterop": true,
     "resolveJsonModule": true,
-
     /* Advanced Options */
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "incremental": true
   }
 }
