@@ -109,7 +109,7 @@ export interface BaseProps {
 export const Base = styled(Button)<BaseProps>(buttonStyles);
 
 export const ButtonIcon = styled.span(
-  ({ theme }) => css`
+  () => css`
     display: inline-flex;
     align-items: center;
     padding-right: 0.5rem;

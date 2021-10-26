@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 import { Group } from "reakit";
 
 export const FieldSet = styled(Group)(
-  ({ theme }) => css`
+  () => css`
     flex: 0 0 auto;
     display: flex;
     flex-direction: column;

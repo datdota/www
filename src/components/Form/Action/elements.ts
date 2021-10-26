@@ -11,7 +11,7 @@ interface LabelProps extends React.ComponentProps<typeof BaseLabel> {
 }
 
 export const Label = styled(BaseLabel)<LabelProps>(
-  ({ active = false, disabled = false, valid = false, theme }) => css`
+  ({ active = false, disabled = false, valid = false }) => css`
     flex: 0 0 auto;
     display: flex;
     align-items: center;
