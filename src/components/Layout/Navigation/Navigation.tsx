@@ -13,7 +13,7 @@ export const Navigation: React.VFC = () => {
         <Link href="/">
           <img
             alt="Home"
-            src="http://api.datdota.com/images/logos/datdota_logo_medium.png"
+            src="https://api.datdota.com/images/logos/datdota_logo_medium.png"
             height="63"
             width="156"
           />
